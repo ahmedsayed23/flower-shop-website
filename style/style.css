@@ -6,7 +6,6 @@ body {
 
 
 /* header banner section start */
-
 .btn-primary{
     background-color: #E55473;
     color: white;
@@ -41,7 +40,14 @@ body {
     font-size: 15px;
 }
 /* header banner section end */
+
+
 /* featured section start */
+.featured-section{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
 .featured-title{
     text-align: center;
     color: #272727;
@@ -62,22 +68,28 @@ body {
     text-align: center;
     justify-content: space-around;
     
+    
 }
 .featured-box1{
     border-radius: 50% 50% 0px 0px;
     background-color: #F2DEE7;
     width:300px;
     height: 350px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    }
     
-}
-    
-.featured-img{
+.featured-img-1{
     width: 200px;
-  
-   
-    
-}
+   margin-top: 75px;
+  }
+  .featured-img-2{
+    width: 250px;
+   margin-top: 75px;
+  }
+  .featured-img-3{
+    width: 200px;
+   margin-top: 50px;
+  }
 .img-title{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -94,6 +106,7 @@ body {
     margin: 0 auto;
     
 }
+/* featured section end */
 
 
 
@@ -141,7 +154,7 @@ body {
 
 
 .banner-section{
-    background-image: url("../images/Rectangle 9.png");
+    background-image: url(../images/Rectangle\ 9.png);
     max-width: 1100px;
     margin: 0px auto;
     background-repeat: no-repeat;
